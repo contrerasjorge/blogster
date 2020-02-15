@@ -7,9 +7,7 @@ const keys = require('./config/keys');
 require('./models/User');
 require('./models/Blog');
 require('./services/passport');
-
-// mongoose.Promise = global.Promise;
-// mongoose.connect(keys.mongoURI, { useMongoClient: true });
+require('./services/cache');
 
 mongoose
   .connect(keys.mongoURI, {
