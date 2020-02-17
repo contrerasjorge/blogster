@@ -1,2 +1,3 @@
-# AdvancedNodeStarter
-Starting project for a course on Advanced Node @ Udemy
+# Blogster
+
+A blogging app with front-end made with react, backend with node and redis caching.
